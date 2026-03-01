@@ -27,7 +27,7 @@ def predict():
 
     predicted_passengers = rf_model.predict(input_df)[0]
 
-    OVER_CROWD_LIMIT = 20
+    OVER_CROWD_LIMIT = 15
     verdict = "Overcrowded" if predicted_passengers >= OVER_CROWD_LIMIT else "Not Overcrowded"
 
     return jsonify({
