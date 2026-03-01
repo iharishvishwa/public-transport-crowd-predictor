@@ -12,7 +12,7 @@ This project uses a Random Forest model trained on transport data to estimate ex
 
 The model is deployed using Flask and provides predictions via a simple web interface.
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - Python
 - Flask
